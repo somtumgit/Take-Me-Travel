@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'flexslider-icon';
+  src: url('../fonts/flexslider-icon.eot');
+  src: url('../fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('../fonts/flexslider-icon.woff') format('woff'), url('../fonts/flexslider-icon.ttf') format('truetype'), url('../fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.flexslider {
+  margin: -10px 0 0 0;
+  padding: 0;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  background:none;
+	border:none;
+	box-shadow:none;
+	margin:0px;
+  /* border: 0.1px solid black; */
+  
+}
+
+/* slides */
+.flexslider .slides {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 430px;
+  z-index: 0;
+  overflow: hidden;
+  /* border: 1px solid blue; */
+}
+.flexslider .slides li {
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    height: 100%;
+    width: 100%;
+    display: none;
+    /* -webkit-backface-visibility: hidden; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+  /* border: 5px solid blue; */
+}
+
+/* next prev */
+.flex-direction-nav {
+  display: none;
+}
+
+/* dot */
+.flexslider .flex-control-nav {
+  display: inline-block;
+  width: 150px;
+  right: 16px;
+  bottom: 16px;
+  /* border: 1px solid red; */
+}
+.flexslider .flex-control-paging li {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.flexslider .flex-control-paging li a {
+  width: 30px;
+  height: 30px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  /* background: #666; */
+  /* background: rgba(0, 0, 0, 0.5); */
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  /* -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px; */
+  border-radius: 0px;
+  text-indent: 0px;
+  text-decoration: none;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+.flexslider .flex-control-paging li:hover a {
+  /* background: rgba(0, 0, 0, 0.7);
+  background: #fbbb12; */
+  color: #990000;
+}
+.flex-control-paging li a.flex-active {
+  /* background: rgba(0, 0, 0, 0.9);
+  background: #ffffff; */
+  color: #990000;
+  cursor: default;
+}
+
+
+
+
+/* caption */
+.flex-caption {
+  position: absolute;
+  display: inline-block;
+  padding: 16px 20px;
+  width: 210px;
+  height: 270px;
+  top: 50%;
+  left: 25%;
+  transform:  translate(-50%,-50%); 
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: left;
+  /* border: 5px solid white; */
+}
+.flex-caption .head1 {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+  z-index: 10;
+}
+.flex-caption .sub1 {
+  color: #000;
+  height: 110px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  letter-spacing: 0px;
+  z-index: 10;
+  
+}
+.flex-caption a {
+  color: #ffffff;
+  background-color: #990000;
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 18px;
+  padding: 8px 10px;
+}
+
+
+
+
+
+
+
+
